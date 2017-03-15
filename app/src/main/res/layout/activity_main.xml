@@ -40,6 +40,8 @@
             android:layout_height="@dimen/portfolio_btn_height"
             android:layout_marginTop="@dimen/portfolio_btn_spacing"
             android:text="@string/build_it_bigger"
+            android:onClick="run_build"
+
             />
 
         <Button
@@ -48,6 +50,8 @@
             android:layout_height="@dimen/portfolio_btn_height"
             android:layout_marginTop="@dimen/portfolio_btn_spacing"
             android:text="@string/xyz_reader"
+            android:onClick="run_xyz"
+
             />
 
         <Button
@@ -56,6 +60,8 @@
             android:layout_height="@dimen/portfolio_btn_height"
             android:layout_marginTop="@dimen/portfolio_btn_spacing"
             android:text="@string/android_wear"
+            android:onClick="run_wear"
+
 
             />
 
@@ -65,6 +71,8 @@
             android:layout_width="@dimen/portfolio_btn_width"
             android:layout_height="@dimen/portfolio_btn_height"
             android:layout_marginTop="@dimen/portfolio_btn_spacing"
+            android:onClick="run_capa"
+
             />
 
     </LinearLayout>
